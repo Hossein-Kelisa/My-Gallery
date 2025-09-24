@@ -34,11 +34,19 @@ function App() {
             <img src="https://via.placeholder.com/150" alt="Sample 5" />
             <img src="https://via.placeholder.com/150" alt="Sample 6" />
           </div>
-          <p>This is the photo album section.</p>
         </section>
         <section id="videos" className="videos-section">
           <h1>Video Gallery</h1>
-          <p>This is the video gallery section.</p>
+          <div className="video-grid">
+            <video controls>
+              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <video controls>
+              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </section>
         <section id="contact">
           <h1>Contact</h1>
