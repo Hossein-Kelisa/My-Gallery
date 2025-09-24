@@ -66,6 +66,44 @@ section h2 {
   margin-bottom: 20px;
   color: #333;
 }
+.hero-section {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(rgba(255, 255, 255, 0.993), rgba(0, 0, 0, 0.801)),
+    url("./images/hero-bg.jpg") no-repeat center/cover;
+  color: #fff;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(249, 172, 180, 0.811);
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  color: #6d0707;
+  text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.896);
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #ff6b6b;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #ff4757;
+  transform: scale(1.05);
+}
 
 /* Photo grid */
 .photo-grid {
