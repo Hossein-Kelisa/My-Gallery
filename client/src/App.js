@@ -39,18 +39,29 @@ function App() {
           <h1>Video Gallery</h1>
           <div className="video-grid">
             <video controls>
-              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+              <source
+                src="https://www.w3schools.com/html/mov_bbb.mp4"
+                type="video/mp4"
+              />
               Your browser does not support the video tag.
             </video>
             <video controls>
-              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+              <source
+                src="https://www.w3schools.com/html/mov_bbb.mp4"
+                type="video/mp4"
+              />
               Your browser does not support the video tag.
             </video>
           </div>
         </section>
-        <section id="contact">
+        <section id="contact" className="contact-section">
           <h1>Contact</h1>
-          <p>This is the contact section.</p>
+          <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" rows="4"></textarea>
+            <button type="submit">Send</button>
+          </form>
         </section>
       </main>
     </div>
