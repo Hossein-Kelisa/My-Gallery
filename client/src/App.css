@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 /* Main app layout */
@@ -32,17 +32,21 @@
 .sidebar ul li {
   margin: 20px 0;
   text-align: center;
+  font-size: 18px;
+  transition: 0.3s;
+  margin-bottom: 50px;
 }
 
 .sidebar ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #f4d9d9;
   font-weight: bold;
   transition: 0.3s;
 }
 
 .sidebar ul li a:hover {
-  color: #ff6b6b;
+  color: #e4d20d;
+  padding-left: 10px;
 }
 
 /* Main content */
@@ -57,7 +61,8 @@ section {
   margin-bottom: 80px;
 }
 
-section h1, section h2 {
+section h1,
+section h2 {
   margin-bottom: 20px;
   color: #333;
 }
