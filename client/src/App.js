@@ -6,8 +6,6 @@ import img5 from "./images/img5.jpg";
 import img6 from "./images/img6.jpg";
 import img7 from "./images/img7.jpg";
 import img8 from "./images/img8.jpg";
-import vid1 from "./videos/vid1.mp4";
-import vid2 from "./videos/vid2.mp4";
 import "./App.css";
 
 function App() {
@@ -52,14 +50,14 @@ function App() {
           <div className="video-grid">
             <video controls >
               <source
-                src={vid1}
+                src="/videos/vid1.mp4"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
             </video>
             <video controls>
               <source
-                src={vid2}
+                src="/videos/vid2.mp4"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
