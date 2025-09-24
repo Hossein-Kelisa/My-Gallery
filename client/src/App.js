@@ -24,11 +24,19 @@ function App() {
           <h1>Welcome to Our Gallery</h1>
           <p>This is the home section.</p>
         </section>
-        <section id="photos">
+        <section id="photos" className="photos-section">
           <h1>Photo Album</h1>
+          <div className="photo-grid">
+            <img src="https://via.placeholder.com/150" alt="Sample 1" />
+            <img src="https://via.placeholder.com/150" alt="Sample 2" />
+            <img src="https://via.placeholder.com/150" alt="Sample 3" />
+            <img src="https://via.placeholder.com/150" alt="Sample 4" />
+            <img src="https://via.placeholder.com/150" alt="Sample 5" />
+            <img src="https://via.placeholder.com/150" alt="Sample 6" />
+          </div>
           <p>This is the photo album section.</p>
         </section>
-        <section id="videos">
+        <section id="videos" className="videos-section">
           <h1>Video Gallery</h1>
           <p>This is the video gallery section.</p>
         </section>
