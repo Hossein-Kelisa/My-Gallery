@@ -9,10 +9,10 @@ function App() {
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#photography">Photography</a>
+            <a href="#photos">Photos</a>
           </li>
           <li>
-            <a href="#videography">Videography</a>
+            <a href="#videos">Videos</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
@@ -21,16 +21,16 @@ function App() {
       </nav>
       <main className="content">
         <section id="home">
-          <h1>Welcome to My Portfolio</h1>
+          <h1>Welcome to Our Gallery</h1>
           <p>This is the home section.</p>
         </section>
-        <section id="photography">
-          <h1>Photography</h1>
-          <p>This is the photography section.</p>
+        <section id="photos">
+          <h1>Photo Album</h1>
+          <p>This is the photo album section.</p>
         </section>
-        <section id="videography">
-          <h1>Videography</h1>
-          <p>This is the videography section.</p>
+        <section id="videos">
+          <h1>Video Gallery</h1>
+          <p>This is the video gallery section.</p>
         </section>
         <section id="contact">
           <h1>Contact</h1>
