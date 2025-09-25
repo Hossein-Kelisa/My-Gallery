@@ -13,14 +13,14 @@ function Photos() {
     <section id="photos" className="photos-section">
       <h1>Photo Album</h1>
       <div className="photo-grid">
-        <img src={img1} alt="Sample 1" />
-        <img src={img2} alt="Sample 2" />
-        <img src={img3} alt="Sample 3" />
-        <img src={img4} alt="Sample 4" />
-        <img src={img5} alt="Sample 5" />
-        <img src={img6} alt="Sample 6" />
-        <img src={img7} alt="Sample 7" />
-        <img src={img8} alt="Sample 8" />
+        <img src={img1} alt="Sample 1" loading="lazy" />
+        <img src={img2} alt="Sample 2" loading="lazy" />
+        <img src={img3} alt="Sample 3" loading="lazy" />
+        <img src={img4} alt="Sample 4" loading="lazy" />
+        <img src={img5} alt="Sample 5" loading="lazy" />
+        <img src={img6} alt="Sample 6" loading="lazy" />
+        <img src={img7} alt="Sample 7" loading="lazy" />
+        <img src={img8} alt="Sample 8" loading="lazy" />
       </div>
     </section>
   );
