@@ -5,11 +5,11 @@ function Videos() {
     <section id="videos" className="videos-section">
       <h1>Video Gallery</h1>
       <div className="video-grid">
-        <video controls>
+        <video controls loading="lazy">
           <source src="/videos/vid1.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <video controls>
+        <video controls loading="lazy">
           <source src="/videos/vid2.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
